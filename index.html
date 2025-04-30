@@ -401,15 +401,9 @@
                 <h2 class="section-title">Rankings Leaderboard</h2>
                 <div class="rankings-list"></div>
             </div>
-            <div class="chart-section"style="margin-top: 200px;">
-                <h2 class="section-title">Performance Analytics</h2>
-                <div class="chart-container">
-                    <canvas id="score-chart"></canvas>
-                </div>
-            </div>
         </div>
-        <footer>
-            <div class="footer-content">
+        <footer style="margin-top: 100px;">
+            <div class="footer-content" style="margin-top: 100px;">
                 <h2>CONGRATULATIONS TO ALL BUDDING ENTREPRENEURS</h2>
                 <p>Each team has showcased remarkable entrepreneurial flair, creative ingenuity, and business acumen during this challenge.</p> <p>Your ideas are not just concepts — they are the seeds of future ventures, destined to redefine industries and inspire change.</p>
                 <div class="copyright">© Bizcom'25 - HBS</div>
@@ -597,10 +591,7 @@
                         <div class="rank-card-team-name hidden">${team.name}</div>
 
                         <div class="rank-card-score-container">
-                            <div class="rank-card-score-bar">
-                                <div class="rank-card-score-fill" data-score="${team.score}" style="width: 0; background: ${scoreColor}"></div>
-                            </div>
-                            <div class="rank-card-score-value">${team.score.toFixed(3)}</div>
+                            
                         </div>
                     </div>
                 `;
